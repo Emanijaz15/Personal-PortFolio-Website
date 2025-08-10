@@ -67,9 +67,6 @@ body {
   display: none;
 }
 
-.checkBtn {
-  display: none; /* hidden on desktop */
-}
 /* Responsive Styling */
 @media (max-width: 768px) {
   #navbar {
@@ -196,7 +193,7 @@ body{
 }
 
 .home-left h6,
-h4 {
+.home-left h4 {
     color: rgb(216, 117, 173);
     margin: 1rem 0;
     margin-left: 3px;
@@ -220,6 +217,8 @@ h4 {
     background-size: cover;
     border-radius: 84%;
 }
+
+
 
 .custom-alert {
     padding: 15px 20px;
@@ -355,6 +354,7 @@ h4 {
 
 .skills-left img {
     width: 85%;
+    display: block;
 }
 
 .skills-right {
@@ -455,10 +455,8 @@ h4 {
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
+    display: flex;
 }
-
-
-
 
 .projects-item {
     overflow: hidden;
@@ -468,6 +466,7 @@ h4 {
     border-radius: 1.5rem;
     padding: 2rem 1rem;
     text-align: center;
+    display: block;
 }
 
 .projects-item h1 {
